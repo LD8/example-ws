@@ -22,3 +22,7 @@ yarn server
 
 - speed wise: the same, ref: Post [websocket-vs-sse](https://www.timeplus.com/post/websocket-vs-sse)
 - browser reconnect: SSE. On the occasional events, such as the server restarts, the client (the browser) disconnect with the server, then the browser would try to recreate the connection automatically. As far as I know, in this basic experiment, the WebSocket doesn't do that.
+
+
+### Notes
+- ❗️frontend library `ws` above v8.0 is not compatible
